@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="sc-fnVZcZ bOylBP"
+>
+  <img
+    alt="logo"
+    src="https://santex.wpengine.com/wp-content/uploads/2019/02/logo-santex@3x.png"
+  />
+  <div
+    className="sc-hBMUJo dfYZSt"
+  >
+    <p
+      className="MuiTypography-root-bWTzaV kmUsBR MuiTypography-root MuiTypography-body1"
+    >
+      $ 
+    </p>
+  </div>
+</header>
+`;
+
+exports[`Page renders header and grid 1`] = `
+Array [
+  <header
+    className="sc-fnVZcZ bOylBP"
+  >
+    <img
+      alt="logo"
+      src="https://santex.wpengine.com/wp-content/uploads/2019/02/logo-santex@3x.png"
+    />
+    <div
+      className="sc-hBMUJo dfYZSt"
+    >
+      <p
+        className="MuiTypography-root-bWTzaV kmUsBR MuiTypography-root MuiTypography-body1"
+      >
+        $ 
+        0
+      </p>
+    </div>
+  </header>,
+  <div
+    className="sc-iqAclL lVPiD"
+  >
+    <span
+      className="MuiCircularProgress-root-limSau cuUnHE MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg-kCIYci eYwcxt MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle-cFJhiW kBtAcV MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </span>
+  </div>,
+]
+`;
