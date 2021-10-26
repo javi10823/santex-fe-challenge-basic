@@ -6,34 +6,8 @@ import ProductList from './components/ProductList';
 import Header from './components/Header';
 import App from './App';
 
-describe('ProductList', () => {
-  it('renders text and button', async () => {
-    render(
-      <MockedProvider mocks={[]} addTypename={false}>
-        <ProductList />
-      </MockedProvider>
-    );
-    await act(
-      async () => await new Promise((resolve) => setTimeout(resolve, 0))
-    );
-  });
-});
-
-describe('Header', () => {
-  it('renders correctly', () => {
-    const tree = renderer
-      .create(
-        <MockedProvider mocks={[]} addTypename={false}>
-          <Header />
-        </MockedProvider>
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
-
 describe('Page', () => {
-  it('renders header and grid', async () => {
+  it('renders home page', async () => {
     const tree = renderer
       .create(
         <MockedProvider mocks={[]} addTypename={false}>
