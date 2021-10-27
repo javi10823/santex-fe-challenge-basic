@@ -1,14 +1,13 @@
-import { Header } from './components/Header';
-import { ProductList } from './components/ProductList';
+import Header from './components/Header';
+import ProductList from './components/ProductList';
+import SubtotalContext from 'context/SubtotalContext';
 
 function App() {
   return (
-    <>
-      <Header></Header>
-      <div>
-        <ProductList></ProductList>
-      </div>
-    </>
+    <SubtotalContext>
+      <Header />
+      <ProductList />
+    </SubtotalContext>
   );
 }
 
