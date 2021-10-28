@@ -1,17 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Header renders Header correctly 1`] = `
+<header
+  className="sc-fnVZcZ bOylBP"
+>
+  <img
+    alt="logo"
+    src="https://santex.wpengine.com/wp-content/uploads/2019/02/logo-santex@3x.png"
+  />
+  <div
+    className="sc-hBMUJo dfYZSt"
+  >
+    <p
+      className="MuiTypography-root-bWTzaV kmUsBR MuiTypography-root MuiTypography-body1"
+    >
+      $ 
+    </p>
+  </div>
+</header>
+`;
 
 exports[`Page renders home page 1`] = `
 Array [
   <header
-    className="sc-crzoAE cBTJFm"
+    className="sc-fnVZcZ bOylBP"
   >
     <img
       alt="logo"
       src="https://santex.wpengine.com/wp-content/uploads/2019/02/logo-santex@3x.png"
     />
     <div
-      className="sc-iqAclL buaiBc"
+      className="sc-hBMUJo dfYZSt"
     >
       <p
         className="MuiTypography-root-bWTzaV kmUsBR MuiTypography-root MuiTypography-body1"
@@ -22,7 +41,7 @@ Array [
     </div>
   </header>,
   <div
-    className="sc-dIsUp ccrOdW"
+    className="sc-iqAclL lVPiD"
   >
     <span
       className="MuiCircularProgress-root-limSau cuUnHE MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary"
